@@ -1,5 +1,3 @@
-# Sabirou.github.io
-CV
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -10,6 +8,7 @@ CV
 </head>
 <body>
     <header>
+        <img src="images/CV.jpg" alt="CV de Sabir Iazza" class="cv-image">
         <h1>Sabir Iazza</h1>
         <p>Étudiant en cybersécurité et informatique</p>
     </header>
@@ -21,7 +20,9 @@ CV
 
     <section id="cv">
         <h2>Mon CV</h2>
-        <p>Tu peux télécharger mon CV ici : <a href="CV.pdf" target="_blank">Télécharger le CV</a></p>
+        <p>Voici mon CV :</p>
+        <img src="images/CV.jpg" alt="CV de Sabir Iazza" style="max-width:100%; height:auto;">
+        <p>Télécharger le CV : <a href="images/CV.jpg" target="_blank">Clique ici</a></p>
     </section>
 
     <section id="contact">
