@@ -1,4 +1,3 @@
-![Capture d’écran_7-11-2025_91217_](https://github.com/user-attachments/assets/3d7eecc6-676f-44fe-b5fb-a5aaf84c533d)
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -9,6 +8,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <!-- Particles.js -->
+    <div id="particles-js"></div>
 
     <!-- Menu de navigation -->
     <nav>
@@ -24,7 +26,9 @@
     <!-- Header avec image et titre -->
     <header>
         <div class="header-content">
-            <img src="images/CV.jpg" alt="CV de Sabir Iazza" class="cv-image">
+            <a href="https://github.com/user-attachments/assets/3d7eecc6-676f-44fe-b5fb-a5aaf84c533d" target="_blank">
+                <img src="https://github.com/user-attachments/assets/3d7eecc6-676f-44fe-b5fb-a5aaf84c533d" alt="CV de Sabir Iazza" class="cv-image">
+            </a>
             <h1 class="animate-title">Sabir Iazza</h1>
             <p class="animate-subtitle">Étudiant en cybersécurité et informatique</p>
         </div>
@@ -40,8 +44,10 @@
     <section id="cv" class="animate-section">
         <h2>Mon CV</h2>
         <div class="cv-container">
-            <img src="images/CV.jpg" alt="CV de Sabir Iazza">
-            <p><a href="images/CV.jpg" target="_blank">Télécharger le CV</a></p>
+            <a href="https://github.com/user-attachments/assets/3d7eecc6-676f-44fe-b5fb-a5aaf84c533d" target="_blank">
+                <img src="https://github.com/user-attachments/assets/3d7eecc6-676f-44fe-b5fb-a5aaf84c533d" alt="CV de Sabir Iazza">
+            </a>
+            <p><a href="https://github.com/user-attachments/assets/3d7eecc6-676f-44fe-b5fb-a5aaf84c533d" target="_blank">Télécharger le CV</a></p>
         </div>
     </section>
 
@@ -69,7 +75,7 @@
     <!-- Contact -->
     <section id="contact" class="animate-section">
         <h2>Contact</h2>
-        <p>Email : sabir@example.com</p>
+        <p>Email : <a href="mailto:sabir.iazza@gmail.com">sabir.iazza@gmail.com</a></p>
         <p>GitHub : <a href="https://github.com/Sabirou">Sabirou</a></p>
     </section>
 
@@ -77,8 +83,27 @@
         <p>&copy; 2025 Sabir Iazza</p>
     </footer>
 
-    <!-- Script pour animation au scroll -->
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
     <script>
+        // Particles.js
+        particlesJS("particles-js", {
+            "particles": {
+                "number": { "value": 60 },
+                "color": { "value": ["#ff4081","#2196F3","#4CAF50","#FF9800"] },
+                "shape": { "type": "circle" },
+                "opacity": { "value": 0.7 },
+                "size": { "value": 4 },
+                "line_linked": { "enable": true, "distance": 150, "color": "#ffffff", "opacity": 0.4, "width": 1 },
+                "move": { "enable": true, "speed": 3, "direction": "none", "random": true, "straight": false }
+            },
+            "interactivity": {
+                "events": { "onhover": { "enable": true, "mode": "repulse" } }
+            },
+            "retina_detect": true
+        });
+
+        // Animation au scroll
         const sections = document.querySelectorAll('.animate-section');
         const observer = new IntersectionObserver((entries, observer) => {
             entries.forEach(entry => {
@@ -91,5 +116,6 @@
 
         sections.forEach(section => observer.observe(section));
     </script>
+
 </body>
 </html>
