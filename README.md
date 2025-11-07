@@ -10,13 +10,12 @@
 <body>
     <!-- Particles.js -->
     <div id="particles-js"></div>
-  <!-- Menu de navigation -->
+    <!-- Menu de navigation -->
     <nav>
         <ul class="menu">
             <li><a href="#about">À propos</a></li>
             <li><a href="#cv">CV</a></li>
             <li><a href="#skills">Compétences</a></li>
-            <li><a href="#experience">Expériences</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
@@ -54,15 +53,6 @@
             <div class="skill" style="--clr:#4CAF50;">Développement Web</div>
             <div class="skill" style="--clr:#FF9800;">Gestion de projets</div>
         </div>
-    </section>
-    <!-- Expériences -->
-    <section id="experience" class="animate-section">
-        <h2>Expériences</h2>
-        <ul>
-            <li>Stage en réparation de téléphones – 2025</li>
-            <li>Stage dans le bâtiment – 2024</li>
-            <li>Certification : Introduction à la cybersécurité</li>
-        </ul>
     </section>
     <!-- Contact -->
     <section id="contact" class="animate-section">
