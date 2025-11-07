@@ -9,7 +9,6 @@
 </head>
 <body>
 
-<!-- Menu fixe -->
 <nav>
   <ul class="menu">
     <li><a href="#home">Accueil</a></li>
@@ -20,7 +19,6 @@
   </ul>
 </nav>
 
-<!-- Home -->
 <section id="home">
   <div class="home-content">
     <h1 class="fade-up">Salut, je suis Sabir Iazza</h1>
@@ -28,13 +26,11 @@
   </div>
 </section>
 
-<!-- À propos -->
 <section id="about" class="fade-up">
   <h2>À propos de moi</h2>
-  <p>Passionné par la cybersécurité, le développement web et les nouvelles technologies, je crée des projets modernes et sécurisés.</p>
+  <p>Passionné par la cybersécurité, le développement web et les nouvelles technologies.</p>
 </section>
 
-<!-- CV -->
 <section id="cv" class="fade-up">
   <h2>Mon CV</h2>
   <a href="https://github.com/user-attachments/assets/3d7eecc6-676f-44fe-b5fb-a5aaf84c533d" target="_blank">
@@ -43,7 +39,6 @@
   <p><a href="https://github.com/user-attachments/assets/3d7eecc6-676f-44fe-b5fb-a5aaf84c533d" target="_blank" class="btn">Télécharger le CV</a></p>
 </section>
 
-<!-- Compétences -->
 <section id="skills" class="fade-up">
   <h2>Compétences</h2>
   <div class="skills-container">
@@ -54,7 +49,6 @@
   </div>
 </section>
 
-<!-- Contact -->
 <section id="contact" class="fade-up">
   <h2>Contact</h2>
   <p>Email : <a href="mailto:sabir.iazza@gmail.com">sabir.iazza@gmail.com</a></p>
