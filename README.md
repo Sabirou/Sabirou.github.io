@@ -3,50 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV de Sabir Iazza - Accueil</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="skills.html">Compétences</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Bienvenue sur mon site</h1>
+        <p>Je suis Sabir Iazza, étudiant en cybersécurité et informatique.</p>
+    </header>
+    <section>
+        <h2>À propos de moi</h2>
+        <p>Salut ! Je suis passionné par la cybersécurité, le développement web et les nouvelles technologies. Je crée des projets web modernes et sécurisés.</p>
+    </section>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV de Sabir Iazza</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Particles.js -->
-    <div id="particles-js"></div>
-    <!-- Menu de navigation -->
     <nav>
         <ul class="menu">
-            <li><a href="#about">À propos</a></li>
-            <li><a href="#cv">CV</a></li>
-            <li><a href="#skills">Compétences</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="skills.html">Compétences</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
-    <!-- Header avec image et titre -->
     <header>
-        <div class="header-content">
-            <a href="https://github.com/user-attachments/assets/3d7eecc6-676f-44fe-b5fb-a5aaf84c533d" target="_blank">
-                <img src="https://github.com/user-attachments/assets/3d7eecc6-676f-44fe-b5fb-a5aaf84c533d" alt="CV de Sabir Iazza" class="cv-image">
-            </a>
-            <h1 class="animate-title">Sabir Iazza</h1>
-            <p class="animate-subtitle">Étudiant en cybersécurité et informatique</p>
-        </div>
+        <h1>Mon CV</h1>
+        <p>Clique sur l'image pour voir le CV en grand</p>
     </header>
-    <!-- À propos -->
-    <section id="about" class="animate-section">
-        <h2>À propos de moi</h2>
-        <p>Salut ! Je suis Sabir, passionné par la cybersécurité, le développement web et les nouvelles technologies. Je crée des projets web modernes et sécurisés.</p>
+    <section>
+        <a href="https://github.com/user-attachments/assets/3d7eecc6-676f-44fe-b5fb-a5aaf84c533d" target="_blank">
+            <img src="https://github.com/user-attachments/assets/3d7eecc6-676f-44fe-b5fb-a5aaf84c533d" alt="CV de Sabir Iazza" style="max-width:80%;border-radius:10px;">
+        </a>
+        <p><a href="https://github.com/user-attachments/assets/3d7eecc6-676f-44fe-b5fb-a5aaf84c533d" target="_blank">Télécharger le CV</a></p>
     </section>
-    <!-- CV -->
-    <section id="cv" class="animate-section">
-        <h2>Mon CV</h2>
-        <div class="cv-container">
-            <a href="https://github.com/user-attachments/assets/3d7eecc6-676f-44fe-b5fb-a5aaf84c533d" target="_blank">
-                <img src="https://github.com/user-attachments/assets/3d7eecc6-676f-44fe-b5fb-a5aaf84c533d" alt="CV de Sabir Iazza">
-            </a>
-            <p><a href="https://github.com/user-attachments/assets/3d7eecc6-676f-44fe-b5fb-a5aaf84c533d" target="_blank">Télécharger le CV</a></p>
-        </div>
-    </section>
-    <!-- Compétences -->
-    <section id="skills" class="animate-section">
-        <h2>Compétences</h2>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compétences - Sabir Iazza</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="skills.html">Compétences</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Mes compétences</h1>
+    </header>
+    <section>
         <div class="skills-container">
             <div class="skill" style="--clr:#f44336;">Cybersécurité</div>
             <div class="skill" style="--clr:#2196F3;">Réseaux & Électronique</div>
@@ -54,45 +85,97 @@
             <div class="skill" style="--clr:#FF9800;">Gestion de projets</div>
         </div>
     </section>
-    <!-- Contact -->
-    <section id="contact" class="animate-section">
-        <h2>Contact</h2>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Sabir Iazza</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="skills.html">Compétences</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Contactez-moi</h1>
+    </header>
+    <section>
         <p>Email : <a href="mailto:sabir.iazza@gmail.com">sabir.iazza@gmail.com</a></p>
         <p>GitHub : <a href="https://github.com/Sabirou">Sabirou</a></p>
     </section>
-    <footer>
-        <p>&copy; 2025 Sabir Iazza</p>
-    </footer>
-    <!-- Scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
-    <script>
-        // Particles.js
-        particlesJS("particles-js", {
-            "particles": {
-                "number": { "value": 60 },
-                "color": { "value": ["#ff4081","#2196F3","#4CAF50","#FF9800"] },
-                "shape": { "type": "circle" },
-                "opacity": { "value": 0.7 },
-                "size": { "value": 4 },
-                "line_linked": { "enable": true, "distance": 150, "color": "#ffffff", "opacity": 0.4, "width": 1 },
-                "move": { "enable": true, "speed": 3, "direction": "none", "random": true, "straight": false }
-            },
-            "interactivity": {
-                "events": { "onhover": { "enable": true, "mode": "repulse" } }
-            },
-            "retina_detect": true
-        });
-        // Animation au scroll
-        const sections = document.querySelectorAll('.animate-section');
-        const observer = new IntersectionObserver((entries, observer) => {
-            entries.forEach(entry => {
-                if(entry.isIntersecting){
-                    entry.target.classList.add('show');
-                    observer.unobserve(entry.target);
-                }
-            });
-        }, { threshold: 0.2 });
-        sections.forEach(section => observer.observe(section));
-    </script>
 </body>
 </html>
+/* Général */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    color: #fff;
+    background: linear-gradient(-45deg, #ff6a00, #ee0979, #fcd440, #ff512f);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+}
+/* Animation du gradient */
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+/* Menu */
+nav ul.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+    padding: 15px 0;
+}
+nav ul.menu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 8px 15px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    position: relative;
+}
+nav ul.menu li a:hover {
+    color: #fff;
+    background: linear-gradient(45deg, #ff6a00, #ee0979, #fcd440, #ff512f);
+    box-shadow: 0 0 10px #ff6a00, 0 0 20px #ee0979, 0 0 30px #fcd440, 0 0 40px #ff512f;
+    transform: scale(1.1);
+}
+nav ul.menu li a::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    width: 0%;
+    height: 3px;
+    background: #FFD700;
+    transition: 0.4s;
+    transform: translateX(-50%);
+    border-radius: 2px;
+}
+nav ul.menu li a:hover::after {
+    width: 80%;
+}
+/* Sections */
+section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 40px 20px;
+    background: rgba(0,0,0,0.6);
+    border-radius: 15px;
+}
