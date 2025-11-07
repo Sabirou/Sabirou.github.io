@@ -8,11 +8,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <!-- Particles.js -->
     <div id="particles-js"></div>
-
-    <!-- Menu de navigation -->
+  <!-- Menu de navigation -->
     <nav>
         <ul class="menu">
             <li><a href="#about">À propos</a></li>
@@ -22,7 +20,6 @@
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
-
     <!-- Header avec image et titre -->
     <header>
         <div class="header-content">
@@ -33,13 +30,11 @@
             <p class="animate-subtitle">Étudiant en cybersécurité et informatique</p>
         </div>
     </header>
-
     <!-- À propos -->
     <section id="about" class="animate-section">
         <h2>À propos de moi</h2>
         <p>Salut ! Je suis Sabir, passionné par la cybersécurité, le développement web et les nouvelles technologies. Je crée des projets web modernes et sécurisés.</p>
     </section>
-
     <!-- CV -->
     <section id="cv" class="animate-section">
         <h2>Mon CV</h2>
@@ -50,7 +45,6 @@
             <p><a href="https://github.com/user-attachments/assets/3d7eecc6-676f-44fe-b5fb-a5aaf84c533d" target="_blank">Télécharger le CV</a></p>
         </div>
     </section>
-
     <!-- Compétences -->
     <section id="skills" class="animate-section">
         <h2>Compétences</h2>
@@ -61,7 +55,6 @@
             <div class="skill" style="--clr:#FF9800;">Gestion de projets</div>
         </div>
     </section>
-
     <!-- Expériences -->
     <section id="experience" class="animate-section">
         <h2>Expériences</h2>
@@ -71,18 +64,15 @@
             <li>Certification : Introduction à la cybersécurité</li>
         </ul>
     </section>
-
     <!-- Contact -->
     <section id="contact" class="animate-section">
         <h2>Contact</h2>
         <p>Email : <a href="mailto:sabir.iazza@gmail.com">sabir.iazza@gmail.com</a></p>
         <p>GitHub : <a href="https://github.com/Sabirou">Sabirou</a></p>
     </section>
-
     <footer>
         <p>&copy; 2025 Sabir Iazza</p>
     </footer>
-
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
     <script>
@@ -102,7 +92,6 @@
             },
             "retina_detect": true
         });
-
         // Animation au scroll
         const sections = document.querySelectorAll('.animate-section');
         const observer = new IntersectionObserver((entries, observer) => {
@@ -113,9 +102,7 @@
                 }
             });
         }, { threshold: 0.2 });
-
         sections.forEach(section => observer.observe(section));
     </script>
-
 </body>
 </html>
